@@ -26,7 +26,7 @@ Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
     Output: 58 29 88 44 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 
 ## 4. Modification
-    *5.1* Change your program to print count of main cycle iterations.
-    *5.2* Change your program to print count of main cycle iterations for numbers from 100 to 200 without interaction with user.
+    4.1 Change your program to print count of main cycle iterations.
+    4.2 Change your program to print count of main cycle iterations for numbers from 100 to 200 without interaction with user.
 ## 5. Push!
     Don't forget to push your work on your git repository.
