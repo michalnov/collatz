@@ -13,7 +13,7 @@ Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
     3.1 Remember you need to change actuall value of "num" varaible!
     If actuall value of num variable is even you will need to set new value to result of division num / 2.
     But if value of num is odd set new value to num * 3 + 1.
-    3.  Don't forget to print numbers on screen.
+    3.2 Don't forget to print numbers on screen.
 
 # 4. Test your code
     Example:
