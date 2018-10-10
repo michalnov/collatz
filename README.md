@@ -28,5 +28,3 @@ Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
     *5.2* Change your program to print count of main cycle iterations for numbers from 100 to 200 without interaction with user.
 # 6. Push!
     Don't forget to push your work on your git repository.
-    
-    ![alt text](https://cdn.dopl3r.com/memes_files/git-errors-pG1ro.jpg)
