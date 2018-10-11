@@ -3,22 +3,56 @@
 int scanInput();
 int isInputInvalid();
 int collatzStep();
-void collatzSprint();
-int collatzSprintCount();
+void sprint();
+int sprintCount();
+void sprintRange();
+void sprintRangeCount();
+void sprintRangeMax();
+
 
 void main(int argc, char const *argv[]) {
   int num = 0;
 
-  num = scanInput();
-  if (isInputInvalid(num)) {
-    return;
-  }
+  //num = scanInput();
+  //if (isInputInvalid(num)) {
+  //  return;
+  //}
 
+  sprintRangeCount(22,222);
+  sprintRangeMax(22,222);
 
   return;
 }
 
-int collatzSprintCount(int d) {
+void sprintRangeMax(int a, int b) {
+  int swap = 0, max = 0;
+  for (int i = a; i < b; i++) {
+    swap = sprintCount(i);
+    if (swap > max) {
+      max = swap;
+    }
+  }
+  printf("max number of iterations is: %d\n", max);
+  return;
+}
+
+void sprintRangeCount(int a, int b) {
+  int swap = 0;
+  for (int i = a; i < b; i++) {
+    swap = sprintCount(i);
+    printf(" %d \t %d\n", i,swap);
+  }
+  return;
+}
+
+void sprintRange(int a, int b) {
+  for (int i = a; i < b; i++) {
+    sprint(i);
+  }
+  return;
+}
+
+int sprintCount(int num) {
   int out = 0;
   while (num != 1) {
     num = collatzStep(num);
@@ -27,7 +61,7 @@ int collatzSprintCount(int d) {
   return out;
 }
 
-void collatzSprint(int d) {
+void sprint(int num) {
   while (num != 1) {
     num = collatzStep(num);
     printf("%d\n", num);
