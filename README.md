@@ -1,4 +1,4 @@
-# collatz
+# Collatz conjecture
     The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined as follows: start with any positive integer n. 
     Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. 
     If the previous term is odd, the next term is 3 times the previous term plus 1. 
@@ -32,5 +32,7 @@
 ## 4. Modification
     4.1 Change your program to print count of main cycle iterations.
     4.2 Change your program to print count of main cycle iterations for numbers from 100 to 200 without interaction with user.
+    4.3 Find maximum temporary value of num for numbers from 100 to 200.
+    
 ## 5. Push!
     Don't forget to push your work on your git repository.
