@@ -10,12 +10,8 @@ int main(int argc, char const *argv[]) {
 
   while (num != 1) {  //main cycle
     /* code */
-    if (num % 2 == 0) {
-      /* code */
-    } else {
-      /* code */
-    }
-
+    
+    
   }
   return 0;
 }
